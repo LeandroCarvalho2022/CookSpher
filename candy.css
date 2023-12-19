@@ -13,32 +13,36 @@ body {
   padding-bottom: 10px;
 }
 
+.fa-brands, .fab, .fas{
+  font-size: 15px;
+}
 .navbar{
-  box-shadow: 1px 2px 5px black;
-  display: flex;
-  justify-content: center;
-}
-
-.navbarlinks{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  list-style: none;
-  padding: 15px;
-}
-.navlinks{
-  text-decoration: none;
-  color: #111111;
-  font-size: 20px;
-  padding: 5px;
-  box-shadow: 1px 2px 6px;
-  border-radius: 5px;
-}
-.navlinks:hover{
-  color: #ffffff;
-  transition: .4s;
+    box-shadow: 1px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    background-image: url("assets/screen-02\ 1.png");
+  }
   
-}
+  .navbarlinks{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    padding: 15px;
+  }
+  .navlinks{
+    text-decoration: none;
+    color: #111111;
+    font-size: 20px;
+    padding: 3px;
+    box-shadow: 1px 2px 6px;
+    border-radius: 5px;
+  }
+  .navlinks:hover{
+    color: #F8DD91;
+    transition: .4s;
+    
+  }
 
 h1{
   width: fit-content;
@@ -156,4 +160,9 @@ button:hover{
     #howtoimg{
       width: 500px !important;
     }
+}
+@media screen and (min-width: 700px) {
+  .fa-brands, .fab, .fas{
+    font-size: 20px;
+  }
 }
