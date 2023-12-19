@@ -6,7 +6,7 @@
   
 }
 body {
-  background-image: url(assets/img-noise-1500x1000.png);
+  background-color: #F8DD91;
   
   width: 100%;
   min-height: 100vh;
@@ -75,6 +75,7 @@ h1{
   height: fit-content;
 }
 #title{
+    background-image: url(assets/screen-02\ 1.png);
     box-shadow: 1px 2px 5px;
     border-radius: 12px;
     padding: 5px;
@@ -85,19 +86,17 @@ input {
   height: auto;
 }
 button {
-  background-color: #d7d7fd;
+  background-color: #F36C21;
   width: 90px;
   height: 40px;
   border-radius: 12px;
 }
 button:hover{
   font-size: 20px;
-  color: white;
+  color: #F36C21;
   box-shadow: 2px 3px 8px black;
-  width: 95px;
-  height: 45px;
   transition: .3s;
-  background-color: #111111;
+  background-color: #F8DD91;
 }
 .card-img-top {
   width: 250px;
@@ -133,7 +132,7 @@ button:hover{
 }
 #anch {
   width: fit-content;
-  background-color: rgb(148, 103, 35);
+  background-color: #F36C21;
   padding: 12px;
   border-radius: 12px;
   text-decoration: none;
@@ -142,7 +141,7 @@ button:hover{
 #anch:hover{
   transition: .3s;
   box-shadow: 3px 3px 15px black;
-  padding: 15px;
+  padding: 13px;
   color: white;
 }
 .instruc{
