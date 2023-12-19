@@ -1,7 +1,5 @@
 .container1{
-    background-image: url(assets/screen-02\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #F8DD91; 
     padding-bottom: 20px;
     min-height: 100vh;
     width: 100%;
@@ -51,6 +49,7 @@ form{
   padding: 10px;
   border-radius: 65px 10px 65px 12px;
   border: dashed #F8DD91;
+  box-shadow: 3px 2px 12px #F36C21;
 }
 .row{
   display: grid;
